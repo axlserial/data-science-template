@@ -12,11 +12,11 @@ Plantilla de proyecto para ciencia de datos, adaptado a mis necesidades para mi 
 Para crear un nuevo proyecto, ejecuta el siguiente comando en el entorno donde hayas instalado cookiecutter:
 
 ```bash
-cookiecutter https://github.com/axlserial/cookiecutter-data-science.git
+cookiecutter https://github.com/axlserial/data-science-template.git
 ```
 o
 ```bash
-cookiecutter gh:axlserial/cookiecutter-data-science
+cookiecutter gh:axlserial/data-science-template
 ```
 
 Se te pedirá que ingreses la información necesaria para el proyecto, esta información está definida en `cookiecutter.json`. Después de ingresar la información, el proyecto será creado en el directorio actual.

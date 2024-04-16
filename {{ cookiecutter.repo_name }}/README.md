@@ -53,4 +53,4 @@ Para instalar las dependencias necesarias para ejecutar el proyecto, consulta la
             └── visualize.py
 
 ## Notas adicionales :memo:
-Este proyecto fue creado para utilizarse con Conda, por lo que se recomienda encarecidamente seguir la guía de instalación para configurar el entorno de trabajo del proyecto.
+Este proyecto fue creado para utilizarse con Conda + VSCode, por lo que se recomienda encarecidamente seguir la guía de instalación para configurar el entorno de trabajo del proyecto y utilizar VSCode como el editor principal.

@@ -16,3 +16,4 @@ dependencies:
   - python={{ cookiecutter.python_version }}
   - scikit-learn
   - seaborn
+  - ipykernel
