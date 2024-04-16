@@ -1,0 +1,18 @@
+# conda env create --file environment.yml
+name: {{ cookiecutter.conda_env_name }}
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - black
+  - invoke
+  - matplotlib
+  - numpy
+  - pandas
+  - pandera
+  - pip
+  - pyprojroot
+  - python={{ cookiecutter.python_version }}
+  - scikit-learn
+  - seaborn

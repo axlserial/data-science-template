@@ -1,0 +1,14 @@
+{
+	"project_name": "Data Science Project",
+	"project_module_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+	"repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+	"conda_env_name": "El nombre del entorno conda a usar",
+	"author_name": "Tú nombre (o de tú organización/empresa/equipo)",
+	"description": "Una pequeña descripción de tu proyecto",
+	"open_source_license": [
+		"MIT",
+		"BSD-3-Clause",
+		"No license file"
+	],
+	"python_version": "3.12"
+}
