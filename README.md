@@ -14,7 +14,7 @@ Para crear un nuevo proyecto, ejecuta el siguiente comando en el entorno donde h
 ```bash
 cookiecutter https://github.com/axlserial/cookiecutter-data-science.git
 ```
-or
+o
 ```bash
 cookiecutter gh:axlserial/cookiecutter-data-science
 ```
