@@ -31,11 +31,15 @@ Para instalar las dependencias necesarias para ejecutar el proyecto, consulta la
 	├── .here              <- El archivo .here se usa para detener la búsqueda si ninguno 
 	│                         de los otros criterios se aplica al buscar la raíz del proyecto.
 	│
+	├── setup.py           <- Configuración de empaquetado para poder acceder a los módulos del proyecto.
+	│
     └── {{ cookiecutter.project_module_name }}               <- Código fuente usado en este proyecto.
         ├── __init__.py    <- Hace a '{{ cookiecutter.project_module_name }}' un paquete de Python.
         │
         ├── data           <- Scripts para descargar o generar datos.
         │   └── make_dataset.py
+        │
+		├── datatypes      <- Definiciones de tipos de datos personalizados.
         │
         ├── features       <- Scripts para convertir los datos originales en características para los modelos.
         │   └── build_features.py
